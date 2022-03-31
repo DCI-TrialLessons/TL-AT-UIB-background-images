@@ -1,0 +1,18 @@
+{
+    "name": "UIB-boxmodel-backgroundimages",
+    "version": "1.1.0",
+    "private": true,
+    "scripts": {
+        "test": "jest",
+        "preinstall": "npm_config_yes=true npx github:DCI-EdTech/autograding-setup --no",
+        "postinstall": "echo '{\n  \"name\": \"UIB-boxmodel-backgroundimages\",\n  \"version\": \"1.1.0\",\n  \"private\": true,\n  \"scripts\": {\n    \"test\": \"jest\",\n    \"preinstall\": \"npx github:DCI-EdTech/autograding-setup --no\"\n  },\n  \"devDependencies\": {\n    \"jest\": \"^26.6.3\",\n    \"jest-puppeteer\": \"^6.0.0\",\n    \"puppeteer\": \"^10.4.0\"\n  },\n  \"jest\": {\n    \"coveragePathIgnorePatterns\": [\n      \"/node_modules/\"\n    ]\n  }\n}' > 'package.json'"
+    },
+    "devDependencies": {
+        "jest": "^26.6.3"
+    },
+    "jest": {
+        "coveragePathIgnorePatterns": [
+            "/node_modules/"
+        ]
+    }
+}
